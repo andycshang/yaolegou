@@ -1,0 +1,533 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+	/* 提示页 */
+#beijing{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	z-index: 10000;
+}
+#beijings{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	z-index: 10000;
+}
+#hei{
+	width: 100%;
+	height: 100%;
+	background: black;
+	position: absolute;
+	top: 0px;
+	opacity:0.4;
+}
+#context{
+	width: 250px;
+	height: 110px;
+	background: #fff;
+	z-index: 999;
+	position: relative;
+	left: 0px;
+	right: 0px;
+	margin: 0px auto;
+	top: 300px;
+	box-shadow: 0px 0px 25px #666;
+}
+#context dl{
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+	padding-top: 30px;
+	overflow: hidden;
+	width: 210px;
+	margin: 0px auto;
+	line-height: 22px;
+}
+#context dl dt{
+	float: left;
+	margin-right: 20px;
+	margin-top: 3px;
+}
+#context dl dd{
+	width:150px;
+	float: left;
+}
+header{
+	width: 100%;
+	overflow: hidden;
+}
+#toubu{
+	width: 1190px;
+	height: 100px;
+	margin: 0px auto;
+}
+section{
+	width: 1190px;
+	overflow: hidden;
+	margin: 0px auto;
+}
+#shouhuo{
+	width: 1250px;
+	overflow:hidden;
+	margin-bottom: 30px;
+}
+.addressinfo{
+	width: 285px;
+	height: 112px;
+	float: left;
+	
+	position: relative;
+	cursor: pointer;
+	margin-right: 17px;
+	margin-top: 16.5px;
+}
+.addressinfo .shanchu{
+	display: none;
+}
+.addressinfo:hover .shanchu{
+	display: inline-block;
+}
+#addressinfo{
+	width: 285px;
+	height: 112px;
+	float: left;
+	position: relative;
+	cursor: pointer;
+	margin-top: 16.5px;
+}
+.wenzi{
+	width: 285px;
+	height: 110px;
+	position: absolute;
+	top: 0px;
+}
+.wenzi p{
+	width:249px;
+	font-size: 12px;
+	display: inline-block;
+	margin-left: 15px;
+	border-bottom: 1px #ccc dashed;
+	padding: 8px 0px;
+}
+.wenzi span{
+	display:block;
+	clear: both;
+	font-size: 12px;
+	width:249px;
+	margin-left: 15px;
+	height: 40px;
+	margin-top: 5px;
+}
+.wenzi a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #28e;
+	float: right;
+	margin-right: 25px;
+}
+default{
+	color: #bd8f4c;
+    background-color: #ffe5bf;
+    padding: 0 4px;
+    margin-right: 5px;
+    float: right;
+}
+lable{
+	border: 1px solid #ffe2c9;
+    background-color: #fff6ef;
+    color: #f60;
+    padding: 0px 5px;
+    float: right;
+}
+#zhifutype{
+	width: 1190px;
+	height: 73px;
+	margin: 0px auto;
+}
+#zhifutype span{
+	display: inline-block;
+	padding: 10px 80px;
+	border: 1px #ccc solid;
+	font-size: 14px;
+	margin-top: 4px;
+}
+#shopinfo{
+	width: 1190px;
+	overflow:hidden;
+	margin: 0px auto;
+	margin-top: 45px;
+}
+#shoptable{
+	width: 1190px;
+	overflow: hidden;
+	border: 1px #eee solid;
+	margin-top: 20px;
+	font-size: 12px;
+}
+/* :nth-child(1) */
+thead .title{
+	width: 396px;
+	height: 40px;
+	font-weight:bold;
+	margin-left: 20px;
+	border-bottom: 1px #eee solid;
+}
+thead .fuwu{
+	width: 396px;
+	height: 40px;
+	color: #666;
+	text-align: center;
+	border-bottom: 1px #eee solid;
+}
+thead .info{
+	width: 132px;
+	height: 32px;
+	text-align: center;
+	color: #666;
+	border-bottom: 1px #eee solid;
+}
+thead{
+	background: #f8f8f8;
+	border-bottom: 1px red solid;
+}
+td{
+	/* border: 1px red solid; */
+}
+tbody td:nth-child(1) img{
+	float: left;
+	margin-right: 10px;
+}
+.xinxi{
+	width:285px;
+	overflow: hidden;
+	margin-left:30px;
+	margin-top: 13px;
+	margin-bottom: 10px;
+}
+.xinxi p{
+	line-height: 19px;
+}
+
+tfoot td:nth-child(1){
+	width:789px;
+	height: 60px;
+	border-right: 1px #eee solid;
+}
+
+#fapiao{
+	width: 1190px;
+	overflow:hidden;
+	margin: 0px auto;
+	margin-top: 20px;
+}
+
+#xx{
+	width: 1188px;
+	height: 58px;
+	border: 1px #eee solid;
+}
+#xx p{
+	font-size: 12px;
+	line-height: 58px;
+	margin-left: 30px;
+	color: #999;
+	float: left;
+	display: block;
+}
+#xx p span{
+	color: #000;
+}
+
+#jiesuan{
+	width: 1190px;
+	overflow:hidden;
+	margin: 0px auto;
+	margin-top: 20px;
+}
+#shops{
+	width: 1188px;
+	height:190px;
+	border: 1px #eee solid;	
+}
+#xins{
+	width: 220px;
+	height: 130px;
+	float: right;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+
+#xins ul{
+	width:108px;
+	overflow:hidden;
+	padding: 3px 0;
+    color: #999;
+    font-family: SimSun;
+    font-size: 12px;
+    list-style: none;
+    line-height: 24px;
+    float: left;
+}
+#xins ul:nth-child(1){
+	float: right;
+	color: #000;
+	font-family: '微软雅黑';
+	font-weight: 700;
+    color: #000;
+    font-size: 13px;
+}
+#xins ul li{
+	text-align: right;
+}
+
+count{
+	color: #ff3366;
+}
+#daifu{
+	float: right;
+	 font-family: SimSun;
+	 font-size: 13px;
+	 margin-top: 20px;
+}
+#tijiao{
+	width: 1130px;
+	overflow: hidden;
+	margin: 0px auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.jine{
+	font-size: 14px;
+	color: #999;	
+}
+#price{
+	font-size: 22px;
+	color: #f60;
+	font-weight: 700;
+}
+#lijian{
+	/* padding: 5px 10px;
+	color: #f60;
+	border: 1px #f60 solid; */
+	display: inline-block;
+    height: 18px;
+    padding: 0 8px;
+    margin-right: 5px;
+    line-height: 18px;
+    border: 1px solid #f60;
+    color: #f60;
+    font-weight: 700;
+}
+#tongyao{
+	font-size: 12px;
+}
+#tijiao p{
+	width: 1130px;
+	display: inline-block;
+	text-align: right;
+	line-height: 30px;
+}
+#submits{
+	display:inline-block;
+	padding: 5px 15px;
+	color: #fff;
+	background: #ff3366;
+	font-weight: bold;
+	font-size: 18px;
+	cursor: pointer;
+	border: 0px;
+}
+#ts{
+	color: #ff3366;
+	font-size: 14px;
+	margin-right: 10px;
+}
+/* 提示页 */
+#beijing{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	z-index: 101;
+}
+#hei{
+	width: 100%;
+	height: 100%;
+	background: black;
+	position: absolute;
+	top: 0px;
+	opacity:0.4;
+}
+#context{
+	width: 800px;
+	height: 480px;
+	background: #fff;
+	z-index: 999;
+	position: relative;
+	left: 0px;
+	right: 0px;
+	margin: 0px auto;
+	top: 200px;
+	box-shadow: 0px 0px 25px #666;
+}
+#context dl{
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+	padding-top: 30px;
+	overflow: hidden;
+	width: 210px;
+	margin: 0px auto;
+	line-height: 22px;
+}
+#context dl dt{
+	float: left;
+	margin-right: 20px;
+	margin-top: 3px;
+}
+#context dl dd{
+	width:150px;
+	float: left;
+}
+#context p{
+	width: 760px;
+	border-bottom: 1px #ccc solid;
+	margin-left: 20px;
+	padding: 8px 0px;
+	font-size: 13px;
+	font-weight: bold;
+}
+#context p span{
+	float: right;
+	font-size: 18px;
+}
+#context table{
+	width: 560px;
+	font-size: 12px;
+	line-height: 41px;
+	margin: 0px auto;
+	margin-top: 10px;
+}
+#context table span{
+	font-size: 12px;
+	color: red;
+	margin-right: 3px;
+}
+#context table [type=text]{
+	width: 170px;
+	height: 25px;
+	border: 1px #ccc solid;
+	text-indent: 8px;
+	font-size: 12px;
+}
+table tr td:nth-child(1){
+	width:80px;
+	
+	border: 0px;
+}
+/*-------------------提示页 结尾--------------------------------------- */
+
+
+
+
+.dizhi{
+    margin:0px;
+    padding:0px;
+			
+	border: 1px #ccc solid;
+	background: #fff;
+	width: 380px;
+			
+	z-index: 100;
+	line-height: 12px;
+	position:absolute;
+	top:225px;
+	overflow:hidden;
+			
+		}
+.dizhi .span{
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	font-size: 16px;
+	width: 380px;
+	border-bottom: 1px #ccc solid;
+	padding: 10px 0px;
+	margin-left: 5px;
+}
+.dizhi ul{
+	margin:0px;
+	padding:0px;
+	list-style: none;
+	line-height: 23px;
+	border: 1px #fff solid;
+	overflow: hidden;
+}
+.dizhi ul li{
+	float: left;
+	margin-left: 20px;
+	margin-right: 28px;
+	margin-top:5px;
+	margin-bottom: 5px; 
+	width: 36px;
+	text-align: center;
+}
+.dizhi ul li{
+	padding: 0px 5px;
+}
+.dizhi ul li:hover{
+	background: #ff3366;
+	color:#fff;
+	cursor: pointer;
+}
+#guan{
+	float: right;
+	font-size: 25px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+
+biaoqian{
+	padding: 5px 25px;
+	border: 1px #ccc solid;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+[type=submit]{
+	padding: 6px 15px;
+	background: #ff3366;
+	border: 0px;
+	color: #fff;
+	border-radius: 3px;
+}
+
+.zhifu{
+	cursor: pointer;
+	margin-right: 20px;
+}
+.zhifu:nth-child(1){
+	border: 1px #ff3366 solid;
+}
+.biaoti{
+	height: 15px;
+	overflow: hidden;
+	display: block;
+}
+#liuyan{
+	padding-top:20px;
+	margin: 0px auto;
+}
+#liuyanxinxi{
+	width: 1188px;
+	height:100px;
+	border: 1px #eee solid;
+}
+#liuyanxinxi [type=text]{
+	width: 
+}

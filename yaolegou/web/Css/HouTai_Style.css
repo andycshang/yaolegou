@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 99.9%;
+    height: 60px;
+    border: 1px solid #ddd;
+}
+header img{
+    margin: 0px;
+    margin-top: -3px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+header p{
+    font-size: 14px;
+    line-height: 60px;
+    float: left;
+}
+header #User{
+    width: 150px;
+    height: 43px;
+    border: 1px #f1f2f7 solid;
+    margin-top: 7px;
+    float: right;
+    margin-right: 20px;
+
+}
+header #User img{
+    margin: 7px 7px;
+    border-radius: 50px;
+}
+header #User span{
+    margin-left: 5px;
+    line-height: 42px;
+}
+section{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#left{
+    margin: 0px;
+    padding:0px;
+    width: 210px;
+    height: 906px;
+    border: 1px #ddd solid;
+    border-top: 0px;
+    float: left;
+}
+#left p{
+    width: 192px;
+    height: 40px;
+    display: inline-block;
+    display: block;
+    margin: 8px 8px 0px 8px;
+    text-indent: 1em;
+    line-height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+}
+#left p:hover{
+    color: #fff;
+    background-color: #FF3366;
+    border-radius: 5px;
+}
+.hr{
+    color: #fff;
+    background-color: #FF3366;
+    border-radius: 5px;
+}
+
+#left ul {
+    margin: 0px;
+    padding: 0px;
+    width: 192px;
+    overflow: hidden;
+    padding-bottom: 8px;
+    margin-left: 8px;
+    display: none;
+    list-style: none;
+    background-color: #FF3366;
+    border-radius: 0px 0px 5px 5px;
+}
+#left ul li{
+    text-indent: 1em;
+    line-height: 30px;
+}
+#left ul a{
+    text-decoration:none;
+    font-size: 13px;
+    color: #f0efee;
+}
+#left ul a:hover{
+    color: #fff;
+}
+
+#right{
+    width: 1580px;
+    height: 907px;
+    overflow: hidden;
+    float: left;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}

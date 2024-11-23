@@ -1,0 +1,270 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    overflow: hidden;
+}
+
+header #yetou {
+    width: 1190px;
+    height: 97px;
+    margin: 0px auto;
+}
+/*
+	--------------------------以下是页脚---------------------------------
+ */
+section .kuangao{
+    width:100%;
+    height: 500px;
+}
+.ziti{
+    width: 170px;
+    font-family: "Arial", "微软雅黑";
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+.wenzi{
+     color: #A8A6A4;
+     font-size: 25px;
+     font-family: "Arial", "微软雅黑";
+    margin:0 0 0 20px;
+ }
+.wenzi1{
+    color: #A8A6A4;
+    font-size: 25px;
+    font-family: "Arial", "微软雅黑";
+    margin: 0 0 0 190px;
+}
+.wenzi2{
+    color: #A8A6A4;
+    font-size: 25px;
+    font-family: "Arial", "微软雅黑";
+    margin:0 0 0 190px;
+}
+.wenzione{
+    color: #A8A6A4;
+    font-size: 15px;
+    font-family: "Arial", "微软雅黑";
+}
+.xiahuaxian{
+    border-bottom: 1px solid #999999;
+    width: 700px;
+    margin:0 auto;
+}
+.password{
+    width: 245px;
+    font-family: "Arial", "微软雅黑";
+    font-size: 18px;
+    color: #FF5FA1;
+    font-weight: 700;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+.wenzitwo{
+    font-size: 15px;
+    font-family: "Arial", "微软雅黑";
+    margin: 0 0 0 770px;
+}
+#biaodan{
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+#pw {
+    width: 310px;
+    overflow: hidden;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+#pw p{
+    font-size: 12px;
+}
+#pw input{
+    width: 260px;
+    height: 30px;
+    margin-left: 10px;
+    border: 0px;
+    border: 1px #ccc solid;
+    border-radius: 3px;
+    outline: none;
+    text-indent: 1em;
+}
+#qingdu{
+    width: 260px;
+    height: 20px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+#qingdu div{
+    width: 40px;
+    height: 10px;
+    background: red;
+    margin-right: 5px;
+    float: left;
+    margin-top: 3px;
+}
+#biaodan a{
+    text-decoration: none;
+    font-size:14px;
+    padding: 8px 50px;
+    background-color: red;
+    color: #fff;
+    margin-left: 190px;
+}
+.queren{
+    border: 1px solid #FF4466;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background:#FF4466;
+    color:#FFFFFF;
+    font-family: "Arial", "微软雅黑";
+    margin:120px 0 0 860px;
+}
+.one{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.drag{  position: relative;  float: left;  width: 310px;  height: 50px;  background-color: #e8e8e8;  line-height: 34px;  margin-bottom: 20px;  }
+.bg{position: absolute;width: 50px;height: 100%;background-color: #7ac23c;}
+.text{position: absolute;width: 100px;margin: 0;text-align: center;line-height:50px;top: 0px;left: 130px;  }
+.btn{position: absolute;width: 50px;height: 48px;float:left;background: #fff url("../Image/QQ截图20180710113148.png") center  no-repeat;border: 1px solid #ccc;cursor: pointer;}
+.btn:hover{cursor: all-scroll}
+.texiao{
+    width: 310px;
+    overflow: hidden;
+    margin: 0px auto;
+}
+.drag span{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    color: #fff;
+}
+/*
+	--------------------------以下是页脚---------------------------------
+ */
+footer{
+    width: 100%;
+    overflow:hidden;
+    background-color: #F5F5F5;
+    border-top:1px #ddd solid;
+    margin-top: 15px;/*仅用于测试 往页脚上 加的   100px外边距  用的时候 可以删掉*/
+}
+footer #footer_manger{
+    width: 1190px;
+    overflow:hidden;
+    margin: 0px auto;
+}
+footer  #footer_manger #footer_back{
+    width: 1190px;
+    overflow:hidden;
+    padding-top: 28px;
+    border-bottom:1px #ddd solid;
+}
+#footer_back ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 12px;
+    color: #666666;
+    float: left;
+    margin-right: 105px;
+    margin-left: 15px;
+}
+#footer_back ul li{
+    margin-bottom: 20px;
+}
+#footer_back ul:nth-of-type(4) li{
+}
+#footer_back ul:nth-of-type(4) li img{
+    vertical-align:middle;
+    padding-right: 5px;
+}
+#footer_back ul li:nth-of-type(1){
+    font-size: 16px;
+    font-weight: bold;
+}
+#footer_back dl{
+    margin: 0px;
+    padding:0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;float: left;
+}
+#footer_back dt{
+    margin-bottom: 15px;
+}
+#footer_back dd{
+    text-align: center;
+}
+#footer_back dl:nth-of-type(1){
+    margin-left: 120px;
+}
+#footer_manger p{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #666;
+}
+#footer_manger p:nth-of-type(1){
+    margin-top: 12px;
+}
+#footer_manger p:nth-of-type(1) a{
+    text-decoration: none;
+    color: #666;
+}
+#footer_manger p:nth-of-type(1) span{
+    color: #666;
+    margin: 0px 3px;
+}
+#footer_manger p:nth-of-type(4){
+    margin-bottom: 15px;
+}
+#footer_manger p a:hover{
+    text-decoration: underline;
+}
+#footer_manger .style:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#chenggong{
+	display:inline-block;
+	width: 1000px;
+	height: 500px;
+	position: absolute;
+	top: 100px;
+	left:0px;
+	right:0px;
+	margin: 0px auto;
+	background-color: #fff;
+	z-index: 999;
+}
+
+#chenggong img{
+	float: left;
+}
+
+#chenggong h2{
+	float: right;
+	margin-top: 30px;
+}
+
+
+#chenggong div{
+	width: 650px;
+	height: 150px;
+	margin: 0px auto;
+	margin-top: 150px;
+}

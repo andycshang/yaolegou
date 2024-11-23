@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#back{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+}
+#back_Color{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity:0.5;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+
+#back_login {
+    width: 331px;
+    height: 308px;
+    margin: 0px auto;
+    margin-top: 200px;
+    background-color: white;
+    border-radius: 5px 5px;
+    box-shadow: 1px 1px 30px #666;
+}
+
+#back_login p{
+    margin: 0px;
+    padding: 0px;
+    padding: 18px 0px;
+    text-align: center;
+    background-color: #FF3266;
+    border-radius: 5px 5px 0px 0px;
+    color: white;
+    font-size: 18px;
+}
+
+#back_login #form{
+    margin: 0px;
+    padding: 0px;
+    width: 286px;
+    height: 105px;
+    padding: 25px 21px 0px 24px;
+
+}
+#back_login #form .text{
+    height: 36px;
+    border-radius: 5px 5px;
+    outline: none;
+    border: 1px  #eaeaea solid;
+    font-family: '微软雅黑';
+    text-indent: 1em;
+    margin-bottom: 15px;
+}
+#back_login #state {
+    width: 286px;
+    height: 30px;
+    padding: 0px 21px 0px 24px;
+}
+
+#back_login #state label{
+    font-size: 13px;
+    color: #666;
+}
+#back_login #state a{
+    text-decoration: none;
+    font-size: 13px;
+    color:#FF3266;
+    float: right;
+}
+#back_login #state a:hover{
+    text-decoration:underline;
+}
+
+#back_login #login{
+    width: 286px;
+    height: 105px;
+    padding: 3px 21px 0px 24px;
+    
+}
+
+#denglu{
+	 padding: 11px 126px;
+	 background-color: #FF3266;
+	 border: 0px;
+	 border-radius: 3px;
+	 color: #fff;
+	 margin-bottom: 10px;
+	 cursor: pointer;
+	 transition:all 0.2s ease-in-out;
+	 outline: none;
+}
+#denglu:hover{
+	background-color: orange;
+	transition:all 0.2s ease-in-out;
+}
+
+#back_login #login span{
+    font-size: 13px;
+    color: #666;
+}
+#back_login #login span a{
+    text-decoration: none;
+    color: #FF3266;
+}
+#back_login #login span a:hover{
+    text-decoration:underline;
+}
