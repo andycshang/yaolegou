@@ -1,0 +1,746 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* 总尺寸 宽1190 */
+header{
+    width: 100%;
+    overflow:hidden;
+    margin: 0px auto;
+}
+header #div_back{
+    height: 36px;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+header #div_back #div_ul{
+    width:1190px;
+    height: 36px;
+    margin: 0px auto;
+}
+
+header #div_back #div_ul ul{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+header #div_back #div_ul ul li{
+    float: left;
+    padding: 8px 12px;
+    color: #666666;
+    border: 1px #F5F5F5 solid;
+}
+header #div_back #div_ul ul li .div_wzdh{
+    margin:0px;
+    padding:0px;
+    position: absolute;
+    top:34px;
+    width: 990px;
+    /* height:0px; */
+    height:242px;
+    overflow:hidden;
+    margin-left:-13px;
+    border: 1px #eeeeee solid;
+    border-top:0px;
+    background-color:#ffffff;
+    cursor: default;
+    padding-top: 18px;
+    z-index: 9999;
+    /* opacity:0; */
+    display:none;
+
+}
+
+.div_wzdh div{
+    width:190px;
+    overflow:hidden;
+    float: left;
+    border-right: 1px #eeeeee solid;
+    float: left;
+}
+
+.div_wzdh div p{
+    margin-bottom: 2px;
+    font-size: 14px;
+    color: #000000;
+    padding-left: 20px;
+}
+
+.div_wzdh div dl{
+    margin: 0px;
+    padding: 0px;
+    list-style:none;
+    font-size: 13px;
+    padding-left: 20px;
+    float: left;
+    cursor: pointer;
+}
+.div_wzdh div dl dd{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 8px;
+}
+
+.div_wzdh div dl dd:hover{
+    color: blue;
+}
+
+header #div_back #div_ul ul .xia:hover{
+    border: 1px #eeeeee solid;
+    background-color: #ffffff;
+}
+/*-------------------搜索栏------------------------*/
+header #DaoHang{
+    width:1190px;
+    height: 110px;
+    margin: 0px auto;
+}
+
+header #DaoHang .one{
+    width: 190px;
+    height: 110px;
+    float: left;
+}
+
+header #DaoHang .one img{
+    margin-top: 8px;
+}
+
+header #DaoHang .two{
+    width:540px;
+    height: 69px;
+    float:left;
+    margin-top: 35px;
+    margin-left:165px;
+
+}
+
+header #DaoHang .two img{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+header #DaoHang .two input {
+    width: 413px;
+    height: 36px;
+    outline: none;
+    border: 2px #FF3366 solid;
+    float: left;
+    text-indent: 2em;
+    margin-bottom: 5px;
+}
+header #DaoHang .two p{
+    display:block;
+    padding: 9.5px 42px;
+    background-color: red;
+    float: left;
+    color: #fff;
+    cursor: pointer;
+}
+
+header #DaoHang .two ul{
+    list-style: none;
+    font-size: 12px;
+    clear:both;
+    color:#666666;
+
+}
+header #DaoHang .two ul li{
+    float: left;
+}
+header #DaoHang .two ul .shu{
+    font-size:9px;
+    color: #ddd;
+    padding: 0px 10px;
+}
+
+/* -----------------导航条---------------- */
+
+header #DaoHangTiao_back{
+    width: 100%;
+    height: 38px;
+    background-color: #FF3366;
+}
+header #DaoHangTiao_back #DaoHangTiao{
+    width:1190px;
+    height: 38px;
+    margin: 1px auto;
+}
+
+header #DaoHangTiao_back #DaoHangTiao ul{
+    list-style: none;
+    font-size: 15px;
+    font-family: '微软雅黑';
+    height:38px;
+    clear: both;
+
+}
+header #DaoHangTiao_back #DaoHangTiao ul li{
+    float: left;
+}
+header #DaoHangTiao_back #DaoHangTiao ul li a{
+    display:block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 9px 30px;
+    transition:all 0.2s ease-in-out;
+}
+header #DaoHangTiao_back #DaoHangTiao ul li a:hover{
+    background-color: #FF668C;
+    transition:all 0.2s ease-in-out;
+}
+#daohangtiaos{
+    margin: 0px;
+    padding: 0px;
+    width: 1190px;
+    height:39px;
+    margin: 0px auto;
+    background-color: #fff;
+}
+#daohangtiaos #left{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 14px;
+
+}
+#daohangtiaos #left li{
+    float: left;
+    padding: 10px 15px;
+
+}
+#daohangtiaos li:hover{
+    color: #ff3366;
+    cursor: pointer;
+}
+#daohangtiaos #left li:nth-of-type(2){
+    margin-left: 10px;
+}
+#daohangtiaos #right{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    float: left;
+    font-size: 14px;
+    margin-top: 10px;
+    border-left: 1px #ddd solid;
+}
+#daohangtiaos #right li{
+    float: left;
+    margin: 0px 24px;
+
+}
+#sp{
+    width: 1200px;
+    overflow: hidden;
+    margin: 0px auto;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+#sp .one{
+    margin: 0px;
+    padding: 0px;
+    width: 1150px;
+    height: 168px;
+    background-color: #fff;
+    padding: 20px 20px;
+    margin-bottom: 10px;
+    transition: all 0.2s ease-in-out;
+    float: left;
+}
+#sp .one:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #666;
+    transition: all 0.2s ease-in-out;
+}
+.img {
+    margin: 0px;
+    padding: 0px;
+    width: 240px;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+
+}
+.img img{
+    transition: all 1s ease-in-out;
+}
+.img img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+}
+#sp .text{
+    width:880px;
+    height: 166px;
+    float: left;
+}
+#sp p{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    transition: all 0.2s ease-in-out;
+}
+#sp .one:hover p{
+    cursor:pointer;
+    color: #ff3366;
+    transition: all 0.2s ease-in-out;
+}
+
+#sp .miaoshu{
+    width: 100%;
+    display: inline-block;
+    height: 100px;
+    overflow: hidden;
+    font-size:14px;
+    color: #999;
+    line-height: 24px;
+}
+#sp span:nth-of-type(2){
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    font-size:12px;
+    color: #999;
+}
+#sp span:nth-of-type(2) img{
+    border-radius: 50px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+/*--------------------主体---------------------*/
+section {
+    width: 100%;
+    height: 4200px;
+    /*overflow: hidden;*/
+    /*border: 2px solid red;*/
+}
+/*---------------banner部分-------------------------*/
+.huang{
+    margin-top: 30px;
+    width: 100%;
+    height: 650px;
+    /*border: 1px solid green;*/
+}
+.polaroid {
+    position: absolute;
+    top: 365px;
+    left: 45%;
+    width: 50%;
+    padding-bottom: 20%;
+    max-width: 20em;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-style: solid;
+    border-color: #fff;
+    border-width: 1em 1em 4.5em;
+    box-shadow: /*0 0 1em rgba(100,100,100,0.4), */0 0 10em rgba(0,0,0,0.7), 0 0 10em rgba(0,0,0,0.5), 0 0 10em #000;
+    -webkit-animation: swing 3.5s ease-in-out forwards infinite;
+    animation: swing 3.5s ease-in-out forwards infinite;
+    -webkit-transform-origin: 50% -10em;
+    transform-origin: 50% -10em;
+}
+.polaroid::before,
+.polaroid::after {
+    content: '';
+    position: absolute;
+    margin-top: 100px;
+    bottom: 100%;
+    height: 10em;
+    width: 0.2em;
+    background-color: white;
+}
+.polaroid::before {
+    -webkit-transform: skew(3deg);
+    transform: skew(3deg);
+    left: 0.5em;
+}
+.polaroid::after {
+    -webkit-transform: skew(-3deg);
+    transform: skew(-3deg);
+    right: 0.5em;
+}
+
+
+@-webkit-keyframes swing {
+    0% {
+        -webkit-transform: translateX(-50%) rotate(10deg);
+        transform: translateX(-50%) rotate(10deg);
+    }
+    50% {
+        -webkit-transform: translateX(-50%) rotate(-10deg) skewX(5deg) skewY(-2deg) scale(1.1);
+        transform: translateX(-50%) rotate(-10deg) skewX(5deg) skewY(-2deg) scale(1.1);
+    }
+    100% {
+        -webkit-transform: translateX(-50%) rotate(10deg);
+        transform: translateX(-50%) rotate(10deg);
+    }
+}
+@keyframes swing {
+    0% {
+        -webkit-transform: translateX(-50%) rotate(10deg);
+        transform: translateX(-50%) rotate(10deg);
+    }
+    50% {
+        -webkit-transform: translateX(-50%) rotate(-10deg) skewX(5deg) skewY(-2deg) scale(1.1);
+        transform: translateX(-50%) rotate(-10deg) skewX(5deg) skewY(-2deg) scale(1.1);
+    }
+    100% {
+        -webkit-transform: translateX(-50%) rotate(10deg);
+        transform: translateX(-50%) rotate(10deg);
+    }
+}
+
+
+
+/*---------------------中间大图------------------------*/
+section #zhu{
+    clear: both;
+    width: 1190px;
+    height: 900px;
+    margin: 0px auto;
+    margin-top: 30px;
+   /* border: 1px solid black;*/
+}
+section #zhu .tu{
+    width: 1190px;
+    margin: 20px auto;
+    height: 868px;
+    margin-top:300px;
+}
+
+section #zhu .tu .zuo{
+    float: left;
+    width: 347px;
+    height: 550px;
+    /*  border: 1px solid red;*/
+}
+section #zhu .tu .zuo img{
+    width: 347px;
+    height: 550px;
+}
+section #zhu .tu .zuo a img:hover{
+    box-shadow: 3px 3px 3px 3px  #DEDEDE;
+    border-bottom: 2px solid #FF668C;
+    border-top: 2px solid #FF668C;
+}
+
+section #zhu .tu .zuo .xiao{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    top: -550px;
+}
+section #zhu .tu .zhong{
+    float: left;
+    margin-left: 25px;
+}
+section #zhu .tu .zhong .zhongs{
+    width: 445px;
+    height: 260px;
+}
+section #zhu .tu .zhong .zhongs a img:hover{
+    box-shadow: 3px 3px 3px 3px  #DEDEDE;
+    border-bottom: 2px solid #FF668C;
+    border-top: 2px solid #FF668C;
+}
+section #zhu .tu .zhong .zhongs img{
+    width: 445px;
+    height: 260px;
+}
+section #zhu .tu .zhong .zhongx{
+    width: 445px;
+    height: 260px;
+    margin-top: 30px;
+}
+section #zhu .tu .zhong .zhongx img{
+    width: 445px;
+    height: 260px;
+}
+section #zhu .tu .zhong .zhongx a img:hover{
+    box-shadow: 3px 3px 3px 3px  #DEDEDE;
+    border-bottom: 2px solid #FF668C;
+    border-top: 2px solid #FF668C;
+}
+section #zhu .tu .yuo{
+    float: left;
+    width: 347px;
+    height: 550px;
+    /*  border: 1px solid red;*/
+    margin-left: 25px;
+}
+section #zhu .tu .yuo img{
+    width: 347px;
+    height: 550px;
+}
+section #zhu .tu .yuo a img:hover{
+    box-shadow: 3px 3px 3px 3px  #DEDEDE;
+    border-bottom: 2px solid #FF668C;
+    border-top: 2px solid #FF668C;
+}
+section #hong{
+    width: 1190px;
+    margin-top: 500px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+
+}
+section #wrap{
+    width: 1190px;
+    margin:0px auto;
+    margin-top: 20px;
+
+}
+section #wrap img{
+    margin-left: 140px;
+    /*border: 1px solid black;*/
+    transition: transform 0.5s;
+}
+section #wrap img:hover{
+    border-radius: 50px;
+    transform: translate(0px,-10px);
+}
+section #wrap img+img{
+    margin-left: 50px
+}
+
+
+section #su-xing{
+    width: 1190px;
+    height: 2000px;
+   /* border: 1px solid black;*/
+    margin: 30px auto;
+}
+section #su-xing h3{
+    margin-top: 20px;
+}
+section #su-xing .su-xing-one{
+    width: 1190px;
+    height: 450px;
+    /*border: 1px solid red;*/
+}
+section #su-xing .su-xing-one a img{
+    margin-left: 2px;
+}
+section #su-xing .su-xing-one dl{
+    width: 380px;
+    height: 450px;
+    border: 1px solid #DEDEDE;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+section #su-xing .su-xing-one dl:hover{
+    border: 1px solid #FF668C;
+    box-shadow: 2px 2px 2px 2px #EFEFEF;
+}
+section #su-xing .su-xing-one dl dd a{
+    margin-left: 10px;
+    margin-top: 5px;
+    color: black;
+}
+section #zhuan{
+    width: 1190px;
+    height: 300px;
+ /*   border: 1px solid red;*/
+    margin: 0px auto;
+}
+section #zhuan h3{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+section #zhuan ul{
+    margin-top: 18px;
+}
+section #zhuan ul li{
+    display: inline-block;
+    margin-left: 20px;
+    height: 170px;
+    /*border: 1px solid black;*/
+}
+section #zhuan ul li a img{
+    z-index: 2;
+    transition:  all 2s;
+}
+section #zhuan ul li a:hover img{
+    border-radius: 50%;
+    transform: rotateY(180deg);
+    z-index: 1;
+}
+section #zhuan ul li+li{
+    margin-left: 33px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+	--------------------------以下是页脚---------------------------------
+ */
+footer{
+    width: 100%;
+    overflow:hidden;
+    background-color: #F5F5F5;
+    border-top:1px #ddd solid;
+    margin-top: 20px;
+}
+footer #footer_manger{
+    width: 1190px;
+    overflow:hidden;
+    margin: 0px auto;
+}
+footer  #footer_manger #footer_back{
+    width: 1190px;
+    overflow:hidden;
+    padding-top: 28px;
+    border-bottom:1px #ddd solid;
+}
+
+#footer_back ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 12px;
+    color: #666666;
+    float: left;
+    margin-right: 105px;
+    margin-left: 15px;
+}
+#footer_back ul li{
+    margin-bottom: 20px;
+}
+#footer_back ul:nth-of-type(4) li{
+}
+#footer_back ul:nth-of-type(4) li img{
+    vertical-align:middle;
+    padding-right: 5px;
+}
+#footer_back ul li:nth-of-type(1){
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#footer_back dl{
+    margin: 0px;
+    padding:0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    float: left;
+}
+#footer_back dt{
+    margin-bottom: 15px;
+}
+#footer_back dd{
+    text-align: center;
+}
+#footer_back dl:nth-of-type(1){
+    margin-left: 120px;
+}
+#footer_manger p{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #666;
+}
+#footer_manger p:nth-of-type(1){
+    margin-top: 12px;
+}
+#footer_manger p:nth-of-type(1) a{
+    text-decoration: none;
+    color: #666;
+}
+#footer_manger p:nth-of-type(1) span{
+    color: #666;
+    margin: 0px 3px;
+}
+#footer_manger p:nth-of-type(4){
+    margin-bottom: 15px;
+}
+
+#footer_manger p a:hover{
+    text-decoration: underline;
+}
+#footer_manger .style:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+#backhei{
+	width: 50px;
+	height: 50px;
+	background: black;
+	opacity:0.5;
+}
+
+#dingbu{
+	list-style:none;
+	width: 50px;
+	overflow:hidden;
+	position: fixed;
+	right: 1%;
+	bottom: 2%;
+	
+}
+#dingbu li{
+	height:50px;
+	position: relative;
+	top: 0px;
+	overflow: hidden;
+	margin-bottom: 3px;
+	border-radius: 3px;
+}
+.quan{
+	width: 44px;
+	height: 100px;
+	overflow: hidden;
+	margin:0px auto;
+	position:relative;
+	top:-50px;
+	transition:all 0.5s ease-in-out;
+}
+.quan img{
+	margin-top: 3px;
+}
+.quan p{
+	font-size: 12px;
+	color: #fff;
+	padding: 8px 10px;
+}
+#dingbu li:hover .quan{
+	transform:translate(0px,-50px);
+	transition:all 0.5s ease-in-out;
+	cursor: pointer;
+}

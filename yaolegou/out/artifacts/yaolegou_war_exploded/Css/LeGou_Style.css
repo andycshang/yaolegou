@@ -1,0 +1,566 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#left a:hover{
+	color: #ff3366;
+}
+/* 提示页 */
+#beijing{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	z-index: 101;
+}
+#hei{
+	width: 100%;
+	height: 100%;
+	background: black;
+	position: absolute;
+	top: 0px;
+	opacity:0.3;
+}
+
+#context{
+	width: 500px;
+	height: 255px;
+	background: #fff;
+	z-index: 999;
+	position: relative;
+	left: 0px;
+	right: 0px;
+	margin: 0px auto;
+	top: 300px;
+	box-shadow: 0px 0px 25px #666;
+}
+#context dl{
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+	padding-top: 30px;
+	overflow: hidden;
+	width: 440px;
+	margin: 0px auto;
+	line-height: 22px;
+}
+#context dl dt{
+	float: left;
+	margin-right: 20px;
+	margin-top: 5px;
+}
+#context dl dd{
+	width:375px;
+	float: left;
+}
+#context form{
+	width:400px;
+	font-size: 14px;
+	margin-left: 45px;
+	margin-top: 30px;
+}
+#context form [type=button]{
+	background: #fff;
+	border: 0px;
+	color: #fff;
+	background: #ff3366;
+	padding: 3px 10px;
+	display: inline-block;
+	margin-top: 50px;
+	float: right;
+	margin-left: 20px;
+	border-radius: 3px;
+	outline: none;
+}
+
+/* 总尺寸 宽1190 */
+header{
+	width: 100%;
+	margin: 0px auto;
+}
+header #div_back{
+	height: 36px;
+	width: 100%;
+	background-color: #F5F5F5;
+}
+
+header #div_back #div_ul{
+	width:1190px;
+	height: 36px;
+	margin: 0px auto;
+}
+
+header #div_back #div_ul ul{
+	margin:0px;
+	padding:0px;
+	list-style: none;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+header #div_back #div_ul ul li{
+	float: left;
+	padding: 8px 12px;
+	color: #666666;
+	border: 1px #F5F5F5 solid;
+}
+header #div_back #div_ul ul li:hover{
+	text-decoration: underline;
+	/*transition:all 0.2s ease-in-out;*/
+	/*color: #FF3366;*/
+}
+.div_wzdh div{
+	width:190px;
+	overflow:hidden;
+	float: left;
+	border-right: 1px #eeeeee solid;
+	float: left;
+}
+
+.div_wzdh div p{
+	margin-bottom: 2px;
+	font-size: 14px;
+	color: #000000;
+	padding-left: 20px;
+}
+
+.div_wzdh div dl{
+	margin: 0px;
+	padding: 0px;
+	list-style:none;
+	font-size: 13px;
+	padding-left: 20px;
+	float: left;
+	cursor: pointer;
+}
+.div_wzdh div dl dd{
+	margin: 0px;
+	padding: 0px;
+	margin-top: 8px;
+}
+/*-------------------搜索栏------------------------*/
+header #DaoHang{
+	width:1190px;
+	height: 110px;
+	margin: 0px auto;
+}
+
+header #DaoHang .one{
+	width: 190px;
+	height: 110px;
+	float: left;
+}
+
+header #DaoHang .one img{
+	margin-top: 8px;
+}
+
+header #DaoHang .two{
+	width:394px;
+	overflow: hidden;
+	float:left;
+	margin-top: 35px;
+	margin-left:165px;
+	float: right;
+}
+#text{
+	width: 310px;
+	height: 28px;
+	outline: none;
+	border: 2px #FF3366 solid;
+	text-indent: 2em;
+}
+#ding{
+	width: 100%;
+	height: 53px;
+	background: #ff3366;
+}
+#ding_border{
+	width: 1190px;
+	height: 53px;
+	margin: 0px auto;
+}
+#ding_border img{
+	margin-top: 12px;
+	float: left;
+	margin-right: 150px;
+	margin-left: 10px;
+}
+#daohang{
+	width: 910px;
+	height:53px;
+	float: left;
+}
+#daohang ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+	color: #fff;
+}
+#daohang ul li{
+	float: left;
+	margin: 17px 17px;
+}
+/*
+-------------------------------主体---------------------------------
+*/
+section {
+	background: #f5f5f5;
+	width: 100%;
+	overflow: hidden;
+}
+#body{
+	width: 1200px;
+	overflow: hidden;
+	margin: 0px auto;
+	margin-bottom: 70px;
+	padding-bottom: 30px;
+}
+#left{
+	width: 158px;
+	overflow:hidden;
+	float: left;
+	margin-right: 10px;
+	background: #fff;
+	box-shadow: 0px 0px 5px #ccc;
+	/* border-radius: 3px; */
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-top: 10px;
+	margin-left: 5px;
+	
+}
+#left dl{
+	font-size: 14px;
+	margin-left: 25px;
+	line-height: 23px;
+}
+#left dl dt{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+#left dl dt img{
+	margin-right: 5px;
+}
+#left dl dd{
+	margin-left: 16px;
+	font-family: Simsun;
+	font-size: 12px;
+}
+#left dl dd a{
+	text-decoration: none;
+	color: black;
+}
+[name=count]{
+	color: #ff3366;
+}
+#right{
+	width: 1020px;
+	float: left;
+	border-radius: 3px;
+	margin-top: 10px;
+}
+.info{
+	width: 505px;
+	height: 150px;
+	background: #fff;
+	box-shadow: 0px 0px 5px #ccc;
+	float: left;
+}
+
+.info:nth-child(1){
+	margin-right: 10px;
+}
+#zhu{
+	margin-top:10px;
+	width: 1020px;
+	background: #fff;
+	float: left;
+	box-shadow: 0px 0px 5px #ccc;
+	margin-bottom: 10px;
+	position: relative;
+}
+#zhu p{
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	font-weight: bold;
+	color: #666;
+	padding: 7px 20px;
+	border-bottom: 1px solid #efefef;
+}
+#zhu p span{
+	float: right;
+	font-size: 14px;
+	padding: 3px 10px;
+	border-radius: 3px;
+}
+.yuan{
+	border-radius: 50%;
+}
+.info dl{
+	font-size: 14px;
+	width: 500px;
+	overflow: hidden;
+	margin-top: 28px;
+}
+.info dl dt{
+	float: left;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.info dl dd a{
+	text-decoration: none;
+	margin-right: 10px;
+	color: #2272c8;
+}
+.info dl dd{
+	line-height: 30px;
+}
+.info:nth-child(2) dl{
+	font-size: 14px;
+	width: 220px;
+	overflow: hidden;
+	margin-top: 28px;
+	margin-left: 20px;
+	float: left;
+}
+.info:nth-child(2) dl:nth-child(2) a{
+	padding: 3px 5px;
+	color: #fff;
+	background: #ff3366;
+	border-radius: 3px;
+	margin-left: 3px;
+}
+
+#tishi{
+	width: 400px;
+	overflow: hidden;
+	border: 1px red solid;
+	margin: 0px auto;
+	margin-top: 50px;
+}
+#shop{
+	background: #fff;
+	position: absolute;
+	top: 36px;
+	width: 1020px;
+	height: 400px;
+}
+#tishi2{
+	width: 350px;
+	height: 100px;
+	margin: 0px auto;
+	margin-top: 150px;
+}
+#tishi2 img{
+	float: left;
+}
+#tishi2 p{
+	float: left;
+	border: 0px;
+}
+#tishi2 span{
+	float:left;
+	padding: 5px 10px;
+	background: #ff3366;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 3px;
+	margin: 8px 0px 0px 18px;
+	cursor: pointer;
+}
+#tishi2 span:hover{
+	
+}
+/*
+	--------------------------以下是页脚--------------------------------- 
+ */
+footer{
+	width: 100%;
+	overflow:hidden;
+	margin-top: 10px;/*仅用于测试 往页脚上 加的   100px外边距  用的时候 可以删掉*/
+	/*border:1px red solid;*/
+}
+footer #footer_manger{
+	width: 1190px;
+	overflow:hidden;
+	margin: 0px auto;
+}
+#footer_manger p{
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 5px;
+	color: #666;
+}
+#footer_manger p:nth-of-type(1){
+	margin-top: 12px;
+}
+#footer_manger p:nth-of-type(1) a{
+	text-decoration: none;
+	color: #666;
+}
+#footer_manger p:nth-of-type(1) span{
+	color: #666;
+	margin: 0px 3px;
+}
+#footer_manger p:nth-of-type(4){
+	margin-bottom: 15px;
+}
+
+#footer_manger p a:hover{
+	text-decoration: underline;
+}
+#footer_manger .style:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.dels:hover{
+	text-decoration: underline;
+	cursor: pointer;
+	color: #ff3366;
+}
+
+
+#daohang div{
+	margin:0px;
+	padding:0px;
+	width: 300px;
+	overflow:hidden;
+	position: absolute;
+	top: 25px;
+	background: #fff;
+	z-index: 9999;
+	box-shadow: 0px 0px 8px #666;
+	border-radius: 3px;
+}
+#daohang div p{
+	color: #000;
+	font-size: 14px;
+	margin: 10px 0px 10px 10px;
+}
+#daohang div ul li{
+	width:300px;
+	margin: 0px;
+	padding:0px;
+	clear: both;
+	border-top: 1px #eee solid;
+	font-size: 12px;
+}
+#daohang div ul li a{
+	display:inline-block;
+	text-decoration: none;
+	color: #666;
+	margin: 8px 0px 8px 8px;
+}
+.state{
+	color: red;
+}
+.state2{
+	color: green;
+}
+
+
+/* 提示页 */
+#beijing2{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	z-index: 10000;
+}
+#hei2{
+	width: 100%;
+	height: 100%;
+	background: black;
+	position: absolute;
+	top: 0px;
+	opacity:0.4;
+}
+#context2{
+	width: 700px;
+	overflow:hidden;
+	background: #fff;
+	z-index: 999;
+	position: relative;
+	left: 0px;
+	right: 0px;
+	margin: 0px auto;
+	top: 150px;
+	box-shadow: 0px 0px 25px #666;
+	padding-bottom: 30px;
+	border-radius: 5px;
+}
+#context2 dl{
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+	padding-top: 30px;
+	overflow: hidden;
+	width: 650px;
+	margin: 0px auto;
+	line-height: 22px;
+}
+#context2 dl dt{
+	float: left;
+	margin-right: 20px;
+	margin-top: 3px;
+}
+#context2 dl dd{
+	width:550px;
+	float: left;
+}
+/*-------------------提示页 结尾--------------------------------------- */
+
+/* 提示页 */
+#beijing3{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	z-index: 101;
+}
+#hei3{
+	width: 100%;
+	height: 100%;
+	background: black;
+	position: fixed;
+	top: 0px;
+	opacity:0.3;
+}
+#context3{
+	width: 400px;
+	height: 205px;
+	background: #fff;
+	z-index: 999;
+	position: relative;
+	left: 0px;
+	right: 0px;
+	margin: 0px auto;
+	top: 300px;
+	box-shadow: 0px 0px 25px #666;
+}
+#context3 dl{
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+	padding-top: 30px;
+	overflow: hidden;
+	width: 350px;
+	margin: 0px auto;
+	line-height: 22px;
+}
+#context3 dl dt{
+	float: left;
+	margin-right: 20px;
+	margin-top: 5px;
+}
+#context3 dl dd{
+	width:290px;
+	float: left;
+}
+#context3 form{
+	margin: 0px;
+	padding: 0px;
+	line-height: 30px;
+}
